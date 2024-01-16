@@ -264,7 +264,7 @@ console.log(list.push(3));
 console.log(list.push(4));
 console.log(list.push(5));
 
-// Rotate the Nodes to the right by 2, 3 -> 4 -> 5 -> 1 - > 2.
+// Rotate the Nodes to the right by 2, 1 -> 2 -> 3 -> 4 -> 5 became, 3 -> 4 -> 5 -> 1 - > 2.
 // 1 -> 2 -> 3 -> 4 -> 5, length = 5, num = 2, oldHead = 1, prev = this.get(2 - 1), this.get(1), index 1 is 2, prev = 2.
 // head = 2.next, head = 3.  2.next = null.  5.next = 1.  tail = 2.
 console.log(list.rotate(2));
